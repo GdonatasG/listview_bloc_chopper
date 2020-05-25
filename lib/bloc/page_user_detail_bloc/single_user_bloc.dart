@@ -2,10 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:listviewblocflutter/bloc/singleUserBloc/single_user_event.dart';
-import 'package:listviewblocflutter/bloc/singleUserBloc/single_user_state.dart';
+import 'package:listviewblocflutter/bloc/page_user_detail_bloc/single_user_event.dart';
+import 'package:listviewblocflutter/bloc/page_user_detail_bloc/single_user_state.dart';
 import 'package:listviewblocflutter/data/repository/user_repository_impl.dart';
-import 'package:listviewblocflutter/data/service/user_service.dart';
 
 class SingleUserBloc extends Bloc<SingleUserEvent, SingleUserState> {
   final UserRepositoryImpl userRepositoryImpl;

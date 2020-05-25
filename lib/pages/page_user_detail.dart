@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:listviewblocflutter/bloc/singleUserBloc/single_user_bloc_export.dart';
+import 'package:listviewblocflutter/bloc/page_user_detail_bloc/single_user_bloc_export.dart';
 import 'package:listviewblocflutter/data/repository/user_repository_impl.dart';
 import 'package:listviewblocflutter/model/built/built_user.dart';
 
